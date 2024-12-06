@@ -1,0 +1,303 @@
+.container{
+    background-color: white;
+    display: flex;
+    height: 100vh;
+    padding: 5rem;
+    padding-left: 18rem;
+    padding-right: 10rem;
+}
+
+.card1 {
+    background-color: #f09341;
+    height: 55vh;
+    width: 20%;
+    color: white;
+    padding: 2rem;
+    padding-right: 2rem;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card1 p{
+    margin-bottom: 2rem;
+}
+
+.card2 {
+    background-color: #0a7075;
+    height: 55vh;
+    width: 20%;
+    color: white;
+    padding: 2rem;
+    padding-right: 2rem;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card2 p{
+    margin-bottom: 2rem;
+}
+
+.card3 {
+    background-color: #032f30;
+    height: 55vh;
+    width: 20%;
+    color: white;
+    padding: 2rem;
+    padding-right: 2rem;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card3 p{
+    margin-bottom: 2rem;
+}
+
+.button1{
+    border-radius: 3rem;
+    border: none;
+    color: #f09341;
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.button2{
+    border-radius: 3rem;
+    border: none;
+    color: #0a7075;
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.button3{
+    border-radius: 3rem;
+    border: none;
+    color: #032f30;
+    background-color: white;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.button1:hover{
+    border: solid white;
+    color: white;
+    background-color: #f09341;
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0,0, 0, 0.3);
+}
+
+.button2:hover{
+    border: solid white;
+    color: white;
+    background-color: #0a7075;
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0,0, 0, 0.3);
+}
+
+.button3:hover{
+    border: solid white;
+    color: white;
+    background-color: #032f30;
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px rgba(0,0, 0, 0.3);
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 1030px) {
+    .container{
+        display: grid;
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    .card1 {
+        justify-self: center;
+        background-color: #f09341;
+        height: 40vh;
+        width: 90%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card2 {
+        justify-self: center;
+        background-color: #0a7075;
+        height: 40vh;
+        width: 90%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card3 {
+        justify-self: center;
+        background-color: #032f30;
+        height: 40vh;
+        width: 90%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .container{
+        display: grid;
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    .card1 {
+        justify-self: center;
+        background-color: #f09341;
+        height: 45vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card2 {
+        justify-self: center;
+        background-color: #0a7075;
+        height: 45vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card3 {
+        justify-self: center;
+        background-color: #032f30;
+        height: 45vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .container{
+        display: grid;
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    .card1 {
+        justify-self: center;
+        background-color: #f09341;
+        height: 48vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card2 {
+        justify-self: center;
+        background-color: #0a7075;
+        height: 45vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card3 {
+        justify-self: center;
+        background-color: #032f30;
+        height: 48vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
+
+@media (max-width: 310px) {
+    .container{
+        display: grid;
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    .card1 {
+        justify-self: center;
+        background-color: #f09341;
+        height: 60vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card2 {
+        justify-self: center;
+        background-color: #0a7075;
+        height: 60vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .card3 {
+        justify-self: center;
+        background-color: #032f30;
+        height: 60vh;
+        width: 80%;
+        color: white;
+        padding: 2rem;
+        padding-right: 2rem;
+        border-radius: 4px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
