@@ -173,53 +173,6 @@
     .card1 {
         justify-self: center;
         background-color: #f09341;
-        height: 45vh;
-        width: 80%;
-        color: white;
-        padding: 2rem;
-        padding-right: 2rem;
-        border-radius: 4px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .card2 {
-        justify-self: center;
-        background-color: #0a7075;
-        height: 45vh;
-        width: 80%;
-        color: white;
-        padding: 2rem;
-        padding-right: 2rem;
-        border-radius: 4px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-    
-    .card3 {
-        justify-self: center;
-        background-color: #032f30;
-        height: 45vh;
-        width: 80%;
-        color: white;
-        padding: 2rem;
-        padding-right: 2rem;
-        border-radius: 4px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-}
-
-@media (max-width: 400px) {
-    .container{
-        display: grid;
-        padding-top: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        
-    }
-
-    .card1 {
-        justify-self: center;
-        background-color: #f09341;
         height: 48vh;
         width: 80%;
         color: white;
@@ -232,7 +185,7 @@
     .card2 {
         justify-self: center;
         background-color: #0a7075;
-        height: 45vh;
+        height: 48vh;
         width: 80%;
         color: white;
         padding: 2rem;
